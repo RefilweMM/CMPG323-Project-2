@@ -88,7 +88,7 @@ namespace proj2API.Controllers
             return NoContent();
         }
 
-        // PUT: api/Customers/5
+        // PATCH: api/Customers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPatch("{id}")]
         public async Task<IActionResult> PatchCustomer(short id, Customer customer)

@@ -81,6 +81,35 @@ namespace proj2API.Controllers
             });
         }
 
+        // GET: api/Orders/{orderId}/Products
+        [HttpGet("{orderId}/Products")]
+        public async Task<ActionResult<IEnumerable<Product>>> GetOrderProducts(short orderId)
+        {
+            var order = await _context.Orders
+                .Include(o => o.OrderDetails)
+                .ThenInclude(od => od.Product)
+                .FirstOrDefaultAsync(o => o.OrderId == orderId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            var products = order.OrderDetails.Select(od => od.Product).ToList();
+
+            // Create JsonSerializerOptions with a custom converter
+            var serializerOptions = new JsonSerializerOptions
+            {
+                ReferenceHandler = ReferenceHandler.Preserve,
+                WriteIndented = true // This is optional, for better readability
+            };
+
+            var serializedProducts = JsonSerializer.Serialize(products, serializerOptions);
+
+            return Content(serializedProducts, "application/json");
+        }
+
+
         // PUT: api/Orders/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
