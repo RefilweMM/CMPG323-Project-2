@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using proj2API.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace proj2API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrdersController : ControllerBase
@@ -29,16 +34,17 @@ namespace proj2API.Controllers
               return NotFound();
           }
             return await _context.Orders.ToListAsync();
+
         }
 
-        // GET: api/Orders/5
-        [HttpGet("{id}")]
+        // GET: api/Orders/Order/5
+        [HttpGet("Order/{id}")]
         public async Task<ActionResult<Order>> GetOrder(short id)
         {
-          if (_context.Orders == null)
-          {
-              return NotFound();
-          }
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
             var order = await _context.Orders.FindAsync(id);
 
             if (order == null)
@@ -46,7 +52,33 @@ namespace proj2API.Controllers
                 return NotFound();
             }
 
-            return order;
+            return new JsonResult(order, new JsonSerializerOptions
+            {
+                ReferenceHandler = ReferenceHandler.Preserve
+            });
+        }
+
+        // GET: api/Orders/Customer/5
+        [HttpGet("Customer/{custId}")]
+        public async Task<ActionResult<IEnumerable<Order>>> GetCustomerOrders(short custId)
+        {
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
+            var customer = await _context.Customers.FindAsync(custId);
+
+            if (customer == null)
+            {
+                return NotFound();
+            }
+
+            var ordersForCustomer = await _context.Orders.Where(o => o.CustomerId == custId).ToListAsync();
+
+            return new JsonResult(ordersForCustomer, new JsonSerializerOptions
+            {
+                ReferenceHandler = ReferenceHandler.Preserve
+            });
         }
 
         // PUT: api/Orders/5
