@@ -76,6 +76,8 @@ Example:
   <li><p><a href="https://thejpanda.com/2020/08/10/python-automating-asp-net-core-web-api-creation-that-communicates-with-your-database-in-60-seconds-or-less/">Automating ASP.NET Core Web API Creation That Communicates With Your Database in 60 Seconds or Less</a></p></li>
   <li><p><a href="https://youtu.be/5qZRzwjKNJ4">Building Web API Solutions with Authentication</a></p></li>
   <li><p><a href="https://youtu.be/XUCsHYNPzrI">Learning Azure: Part 2—Architecture and interactive APIs for .NET and REST APIs | Azure Friday</a></p></li>
+  <li><p><a href="[https://youtu.be/z8pMW1Lmm-Q](https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/)">Entity Framework Core in ASP.NET Core 3.1 – Getting Started</a></p></li>
+ 
 </ul>
 
 
