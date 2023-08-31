@@ -56,7 +56,7 @@ Example:
 <ul>
  <li><p><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio">Tutorial: Create a web API with ASP.NET       Core</a></p></li> 
   <li><p><a href="https://www.youtube.com/watch?v=-kaBMzOPiP0">3 Aug Class Recording  || Intro to APIs</a></p></li> 
-   <li><p><a href="[[https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0&preview=05+CMPG+323+-+API+Security+intro+23+Aug.mp4](https://www.youtube.com/watch?v=-kaBMzOPiP0)"](https://www.youtube.com/watch?v=murThM9ATJA&t=2651s)>17 Aug Class Recording    || API deployment</a></p></li> 
+   <li><p><a href="[[https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0&preview=05+CMPG+323+-+API+Security+intro+23+Aug.mp4](https://www.youtube.com/watch?v=-kaBMzOPiP0)"](https://www.youtube.com/watch?v=murThM9ATJA&t=2651s)">17 Aug Class Recording    || API deployment</a></p></li> 
   <li><p><a href="[https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0&preview=05+CMPG+323+-+CLOUD+and+API+Security+25+August.mp4"](https://www.youtube.com/watch?v=tg_0o6U_J-w&t=2429s)>24 Aug Class  Recording    || API Security</a></p></li>
   <li><p><a href="https://brightsec.com/blog/api-security/">API Security: The Complete Guide to Threats, Methods & Tools</a></p></li> 
   <li><p><a href="https://www.microfocus.com/en-us/what-is/api-security">What is API Security?</a></p></li> 
