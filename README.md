@@ -30,3 +30,4 @@ Step 10: Test the rest of the API endppoints in a similar manner.
 
 **HOWEVER**, when tesing APIs that requires you to POST, PUT or PATCH, you want to ensure that you first GET ALL records for that specific record to see what attributes encompasses that resource. From there, you will delete everything in the response body that does not contain the attributes that are contained within this resource. Example:
 
+
