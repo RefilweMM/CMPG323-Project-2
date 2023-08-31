@@ -35,8 +35,10 @@ You will see that the attributes for this resource are customerID, Title, Name, 
 
 From there you, you will see that whenever you want to run the e.g the PUT endpoint. you will see this screen after pressing "try it out":
 <img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Customer2.jpg" width="750" height="500" alt="Flowers in Chania">
+
 You will then delete everything after cellPhone including the last comma after "cellPhone" until you have this: 
 <img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Customer3.jpg" width="750" height="500" alt="Flowers in Chania">
+
 From there, you will then be able to PUT, POST, or PATCH.
 
 Therefore, whenever you run the 3 above mentioned endpoints, you need to ensure that you get ALL records from that resource and delete additional attributes in your request body so that it matches with the attributes that have values in your resource.
