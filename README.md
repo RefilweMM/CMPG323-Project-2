@@ -50,6 +50,6 @@ Therefore, whenever you run the 3 above mentioned endpoints, you need to ensure 
 
 You also wnat to ensure that the ID you enter in the textbox matches the ID you type in your request body. 
 Example:
-<img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Customer4.jpg" width="750" height="500" alt="Flowers in Chania">
+<img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Cutomer4.jpg" width="750" height="500" alt="Flowers in Chania">
 
 
