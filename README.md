@@ -81,6 +81,7 @@ Example:
   <li><p><a href="https://www.youtube.com/watch?v=UuxZNQ__WQA&t=10s">Azure basis for beginners</a></p></li>
  <li><p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction">Introduction to Web APIs</a></p></li>
  <li><p><a href="https://aws.amazon.com/what-is/api/">What is an API?</a></p></li>
+  <li><p><a href="https://www.youtube.com/watch?v=8ew1LgfWV6s&t=25s">.NET fundamentals</a></p></li>
 </ul>
 
 
