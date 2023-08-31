@@ -29,5 +29,6 @@ NB!!! If you have been authenticated, the gray lock needs to be black and locked
 Step 10: Test the rest of the API endppoints in a similar manner.
 
 **HOWEVER**, when tesing APIs that requires you to POST, PUT or PATCH, you want to ensure that you first GET ALL records for that specific record to see what attributes encompasses that resource. From there, you will delete everything in the response body that does not contain the attributes that are contained within this resource. Example:
+<img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Customer1.jpg" width="750" height="500" alt="Flowers in Chania">
 
 
