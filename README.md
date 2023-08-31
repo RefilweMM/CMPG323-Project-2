@@ -22,10 +22,11 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8
 Step 8: Authorize by clicking the _Authorize_ button at the top right corner. Type "Bearer" in the box and copy the token from the previous step, then click login, and close.
 
 Step 9: Now test the endpoints by scrolling down to "Customers" and click the arrow on the right "Get/api/Customers" and click "try it out". Then "Execute".
-
 If you scroll down to "server response" you should see a list of all customers.
 
-NOTE !!! If you have been authenticated, the gray lock needs to be black and locked. This applies for all the other methods.
+NB!!! If you have been authenticated, the gray lock needs to be black and locked. This applies for all the other methods.
 
-Test the rest of the API endppoints in a similar manner.
+Step 10: Test the rest of the API endppoints in a similar manner.
+
+**HOWEVER**, when tesing APIs that requires you to POST, PUT or PATCH, you want to ensure that you first GET ALL records for that specific record to see what attributes encompasses that resource. From there, you will delete everything in the response body that does not contain the attributes that are contained within this resource. Example:
 
