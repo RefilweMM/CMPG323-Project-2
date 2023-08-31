@@ -78,6 +78,7 @@ Example:
   <li><p><a href="https://youtu.be/XUCsHYNPzrI">Learning Azure: Part 2—Architecture and interactive APIs for .NET and REST APIs | Azure Friday</a></p></li>
   <li><p><a href="https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/">Entity Framework Core in ASP.NET Core 3.1 – Getting Started</a></p></li>
   <li><p><a href="https://www.geeksforgeeks.org/rest-api-introduction/">REST API introduction</a></p></li>
+ <li><p><a href="https://www.youtube.com/watch?v=UuxZNQ__WQA&t=10s">Azure basis for beginners</a></p></li>
  
 </ul>
 
