@@ -52,4 +52,30 @@ You also wnat to ensure that the ID you enter in the textbox matches the ID you 
 Example:
 <img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Cutomer4.jpg" width="750" height="500" alt="Flowers in Chania">
 
+#References
+<ul>
+ <li><p><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio">Tutorial: Create a web API with ASP.NET       Core</a></p></li> 
+  <li><p><a href="[https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0&preview=05+CMPG+323+-+API+Security+intro+23+Aug.mp4](https://www.youtube.com/watch?v=-kaBMzOPiP0)">3 Aug Class Recording    || Intro to APIs</a></p></li> 
+   <li><p><a href="[[https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0&preview=05+CMPG+323+-+API+Security+intro+23+Aug.mp4](https://www.youtube.com/watch?v=-kaBMzOPiP0)"](https://www.youtube.com/watch?v=murThM9ATJA&t=2651s)>3 Aug Class Recording    || API deployment</a></p></li> 
+  <li><p><a href="[https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0&preview=05+CMPG+323+-+CLOUD+and+API+Security+25+August.mp4"](https://www.youtube.com/watch?v=tg_0o6U_J-w&t=2429s)>24 Aug Class  Recording    || API Security</a></p></li>
+  <li><p><a href="https://brightsec.com/blog/api-security/">API Security: The Complete Guide to Threats, Methods & Tools</a></p></li> 
+  <li><p><a href="https://www.microfocus.com/en-us/what-is/api-security">What is API Security?</a></p></li> 
+  <li><p><a href="https://youtu.be/ht9e01bTklE"> How to protect your APIs against these 6 security threats</a></p></li>
+  <li><p><a href="https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/">Create a web API with ASP.NET Core controllers</a></p></li>
+  <li><p><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1">ASP.NET Core web API documentation with      Swagger / OpenAPI</a></p></li>
+  <li><p><a href="https://docs.microsoft.com/en-us/learn/paths/create-microservices-with-dotnet/">Create microservices with .NET and ASP.NET Core</a></p></li>
+  <li><p><a href="https://jwt.io/introduction/">Introduction to JSON Web Tokens</a></p></li>
+  <li><p><a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.entityframeworkcore?view=aspnetcore- 1.1">Microsoft.AspNetCore.Identity.EntityFrameworkCore Namespace</a></p></li>
+  <li><p><a href="https://youtu.be/YMBAeHaqrVs">Package Manager Console More than one DbContext was found in ASP NET CORE</a></p></li>
+  <li><p><a href="https://youtu.be/C2L7SUZY9fw">InvalidOperationException Unable resolve service Context attempt activate Controller ASP.NET Core</a></p></li> 
+  <li><p><a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-6.0">Dependency injection in ASP.NET Core</a></p></li>
+  <li><p><a href="https://stackoverflow.com/questions/40023013/tab-space-in-markdown">Markdown tab syntax</a></p></li>
+  <li><p><a href="https://jd-bots.com/2022/01/24/join-two-entities-in-net-core-using-lambda-and-entity-framework-core/">Join two entities in .NET Core, using lambda and Entity Framework Core</a></p></li>
+  <li><p><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0">Publish an ASP.NET Core web API to Azure API Management with Visual Studio</a></p></li>
+  <li><p><a href="https://youtu.be/z8pMW1Lmm-Q">How to Deploy/Publish your Web-API to Azure App Service</a></p></li>
+  <li><p><a href="https://thejpanda.com/2020/08/10/python-automating-asp-net-core-web-api-creation-that-communicates-with-your-database-in-60-seconds-or-less/">Automating ASP.NET Core Web API Creation That Communicates With Your Database in 60 Seconds or Less</a></p></li>
+  <li><p><a href="https://youtu.be/5qZRzwjKNJ4">Building Web API Solutions with Authentication</a></p></li>
+  <li><p><a href="https://youtu.be/XUCsHYNPzrI">Learning Azure: Part 2—Architecture and interactive APIs for .NET and REST APIs | Azure Friday</a></p></li>
+</ul>
+
 
