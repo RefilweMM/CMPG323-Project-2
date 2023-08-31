@@ -28,7 +28,9 @@ NB!!! If you have been authenticated, the gray lock needs to be black and locked
 
 Step 10: Test the rest of the API endppoints in a similar manner.
 
-**HOWEVER**, when tesing APIs that requires you to POST, PUT or PATCH, you want to ensure that you first GET ALL records for that specific record to see what attributes encompasses that resource. From there, you will delete everything in the response body that does not contain the attributes that are contained within this resource. Example:
+**HOWEVER**, when tesing APIs that requires you to POST, PUT or PATCH, you want to ensure that you first GET ALL records for that specific record to see what attributes encompasses that resource. From there, you will delete everything in the response body that does not contain the attributes that are contained within this resource. 
+
+Example:
 <img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Customer1.jpg" width="750" height="500" alt="Flowers in Chania">
 
 You will see that the attributes for this resource are customerID, Title, Name, Surname, and Cellphone.
@@ -37,9 +39,10 @@ From there you, you will see that whenever you want to run the e.g the PUT endpo
 <img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Customer2.jpg" width="750" height="500" alt="Flowers in Chania">
 
 You will then delete everything after cellPhone including the last comma after "cellPhone" until you have this: 
+
 <img src="https://github.com/RefilweMM/CMPG323-Project2-36787426/blob/main/Customer3.jpg" width="750" height="500" alt="Flowers in Chania">
 
-From there, you will then be able to PUT, POST, or PATCH.
+From there, you will be able to PUT, POST, or PATCH.
 
 Therefore, whenever you run the 3 above mentioned endpoints, you need to ensure that you get ALL records from that resource and delete additional attributes in your request body so that it matches with the attributes that have values in your resource.
 
